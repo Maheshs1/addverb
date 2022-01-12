@@ -1,5 +1,52 @@
+body{
+  color: #35858B;
+  font-family: 'Nunito';
+}
+
+h1{
+  margin: 0;
+  padding: 1rem;
+  font-family: 'Acme';
+  font-size: xxx-large;
+}
+
+.bg-green{
+  color: #35858B;
+  font-size: x-large;
+}
+
+hr{  
+  border: 0.75rem dotted rgba(255,255,255,0.9);
+  
+  border-bottom: none;
+  margin: 1rem 44rem;
+}
+
+.refresh-btn{
+  color:white;
+  background-color: rgb(53, 133, 139);
+  border: none;
+  font-size: 17px;  
+  box-shadow: 4px 4px 15px 0px #6ebfc5;     
+
+  padding:2rem 1rem;
+  border-radius: 100%;
+  font-family: 'Nunito';
+  cursor: pointer;
+}
+
+.refresh-btn:hover{
+  background-color: white;
+  color: #115257;
+  font-weight: bold;  
+}
+
 .App {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;        
+  font-family: 'Nunito';
+  background-color: #caebe9;
 }
 
 .App-logo {
